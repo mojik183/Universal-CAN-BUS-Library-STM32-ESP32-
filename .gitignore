@@ -1,0 +1,31 @@
+# @author: mojik183
+# @github: github.com/mojik183
+# @ai assistant: claude.ai
+# @date: 2026-10-30
+# @version: 0.1.0
+# build output
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+a.out
+t
+# IDE / project files
+.vscode/
+.idea/
+*.uvoptx
+*.uvguix.*
+Debug/
+Release/
+build/
+# generated packages
+UniversalCAN/
+*.zip
+# editor / OS
+*~
+*.swp
+.DS_Store
+Thumbs.db

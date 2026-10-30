@@ -1,0 +1,12 @@
+{
+  "name": "UniversalCAN",
+  "version": "0.1.0",
+  "description": "CAN bus and CAN FD library for STM32 (bxCAN, FDCAN, H7), ESP32 (TWAI) and MCP2515 / MCP2517FD / MCP2518FD over SPI. One header, one config file, optional FreeRTOS.",
+  "keywords": ["can", "canbus", "can-fd", "stm32", "esp32", "twai", "fdcan", "bxcan", "mcp2515", "mcp2517fd", "mcp2518fd", "tja1051", "iso1042", "freertos", "automotive"],
+  "authors": [{ "name": "mojik183", "url": "https://github.com/mojik183" }],
+  "repository": { "type": "git", "url": "https://github.com/mojik183" },
+  "license": "MIT",
+  "frameworks": ["arduino", "espidf", "stm32cube"],
+  "platforms": ["espressif32", "ststm32"],
+  "build": { "srcFilter": ["+<can_*.c>"], "includeDir": "." }
+}

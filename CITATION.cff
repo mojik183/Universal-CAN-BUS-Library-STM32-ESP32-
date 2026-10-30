@@ -1,0 +1,26 @@
+# @author: mojik183
+# @github: github.com/mojik183
+# @ai assistant: claude.ai
+# @date: 2026-10-30
+# @version: 0.1.0
+cff-version: 1.2.0
+message: "If you use this library, please cite it as below."
+title: "Universal CAN Library (CAN / CAN FD for STM32, ESP32, MCP25xx)"
+version: 0.1.0
+date-released: 2026-10-29
+license: MIT
+authors:
+  - alias: "mojik183"
+repository-code: "https://github.com/mojik183"
+keywords:
+  - can-bus
+  - can-fd
+  - stm32
+  - esp32
+  - mcp2515
+  - mcp2518fd
+  - freertos
+  - embedded
+abstract: >
+  A C library for CAN bus and CAN FD on STM32 (bxCAN, FDCAN, H7), ESP32 (TWAI) and the external
+  MCP2515 / MCP2517FD / MCP2518FD SPI controllers, with one umbrella header and one configuration file.

@@ -1,0 +1,16 @@
+# @author: mojik183
+# @github: github.com/mojik183
+# @ai assistant: claude.ai
+# @date: 2026-10-30
+# @version: 0.1.0
+version: "0.1.0"
+description: "CAN bus and CAN FD library: ESP32 TWAI and MCP2515 / MCP2517FD / MCP2518FD over SPI, one header, one config file, optional FreeRTOS."
+url: "https://github.com/mojik183"
+license: "MIT"
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+  - esp32c3
+dependencies:
+  idf: ">=4.4"
