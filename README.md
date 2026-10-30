@@ -1,17 +1,7 @@
-<!--
-@author: mojik183
-@github: github.com/mojik183
-@ai assistant: claude.ai
-@date: 2026-10-29
-@version: 0.1.0
--->
 # Universal CAN Library
 
-**author:** mojik183  
-**github:** github.com/mojik183  
-**ai assistant:** claude.ai  
-**date:** 2026-10-29  
-**version:** 0.1.0  
+ <img width="2800" height="1500" alt="can_mind_map" src="https://github.com/user-attachments/assets/9b0c6608-21b7-4369-9e73-aabc610cc3f2" />
+
 
 One C library for **CAN bus and CAN FD** on **STM32** (bxCAN, FDCAN, STM32H7) and **ESP32** (TWAI, ESP-IDF, Arduino-ESP32).
 It also drives the external **MCP2515**, **MCP2517FD** and **MCP2518FD** CAN controllers over **SPI** from any microcontroller, with **TJA1050 / TJA1051 / TJA1042 / TJA1057** and isolated **ISO1042 / ISO1050** transceivers (optional mode pin). Plain C99, optional **FreeRTOS**, no malloc, one umbrella header (`can_lib.h`), all settings in one file (`can_cfg.h`), and easy debugging from the Keil watch window or with printf.
