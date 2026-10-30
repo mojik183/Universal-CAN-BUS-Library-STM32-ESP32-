@@ -1,4 +1,4 @@
-# Universal CAN Library
+<img width="2800" height="1500" alt="can_mind_map" src="https://github.com/user-attachments/assets/c336628f-ff7f-4cd5-af95-c9837ef810bc" /># Universal CAN Library
 
  <img width="2800" height="1500" alt="can_mind_map" src="https://github.com/user-attachments/assets/9b0c6608-21b7-4369-9e73-aabc610cc3f2" />
 
@@ -136,9 +136,204 @@ library task), printf and watch-window debugging. Every feature can be switched 
 
 ## 3. How it is built
 
-![Universal CAN Library mind map](docs/can_mind_map.png)
+![Upload<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1500" viewBox="0 0 2800 1500" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect width="2800" height="1500" fill="#f8fafc"/>
+<text x="1400" y="52" text-anchor="middle" font-size="34" font-weight="700" fill="#0f172a">Universal CAN Library - mind map</text>
+<text x="1400" y="84" text-anchor="middle" font-size="20" fill="#475569">CAN / CAN FD for STM32, ESP32 and MCP25xx  |  author: mojik183  |  version 0.1.0</text>
+<path d="M1550,750 C1680,750 1606,364 1746,364" fill="none" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+<rect x="1746" y="338" width="169" height="52" rx="26" fill="#2563eb"/>
+<text x="1830" y="372" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Hardware</text>
+<path d="M1914,364 C1954,364 1954,245 1994,245" fill="none" stroke="#2563eb" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="230" width="387" height="30" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="2008" y="251" text-anchor="start" font-size="19" fill="#0f172a">STM32 bxCAN (F1/F4...)</text>
+<path d="M1914,364 C1954,364 1954,279 1994,279" fill="none" stroke="#2563eb" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="264" width="387" height="30" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="2008" y="285" text-anchor="start" font-size="19" fill="#0f172a">STM32 FDCAN (G0/G4/L5/U5/H5/H7)</text>
+<path d="M1914,364 C1954,364 1954,313 1994,313" fill="none" stroke="#2563eb" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="298" width="387" height="30" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="2008" y="319" text-anchor="start" font-size="19" fill="#0f172a">STM32H7 message RAM</text>
+<path d="M1914,364 C1954,364 1954,347 1994,347" fill="none" stroke="#2563eb" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="332" width="387" height="30" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="2008" y="353" text-anchor="start" font-size="19" fill="#0f172a">ESP32 TWAI</text>
+<path d="M1914,364 C1954,364 1954,381 1994,381" fill="none" stroke="#2563eb" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="366" width="387" height="30" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="2008" y="387" text-anchor="start" font-size="19" fill="#0f172a">MCP2515 over SPI</text>
+<path d="M1914,364 C1954,364 1954,415 1994,415" fill="none" stroke="#2563eb" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="400" width="387" height="30" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="2008" y="421" text-anchor="start" font-size="19" fill="#0f172a">MCP2517FD / MCP2518FD over SPI</text>
+<path d="M1914,364 C1954,364 1954,449 1994,449" fill="none" stroke="#2563eb" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="434" width="387" height="30" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="2008" y="455" text-anchor="start" font-size="19" fill="#0f172a">Transceivers: TJA10xx, ISO10xx</text>
+<path d="M1914,364 C1954,364 1954,483 1994,483" fill="none" stroke="#2563eb" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="468" width="387" height="30" rx="8" fill="#fff" stroke="#2563eb" stroke-width="1.6"/>
+<text x="2008" y="489" text-anchor="start" font-size="19" fill="#0f172a">Virtual backend (PC tests)</text>
+<path d="M1550,750 C1680,750 1606,662 1746,662" fill="none" stroke="#059669" stroke-width="6" stroke-linecap="round"/>
+<rect x="1746" y="636" width="169" height="52" rx="26" fill="#059669"/>
+<text x="1830" y="670" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Core API</text>
+<path d="M1914,662 C1954,662 1954,543 1994,543" fill="none" stroke="#059669" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="528" width="444" height="30" rx="8" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+<text x="2008" y="549" text-anchor="start" font-size="19" fill="#0f172a">SetDefaults &gt; Init &gt; Start &gt; Process</text>
+<path d="M1914,662 C1954,662 1954,577 1994,577" fill="none" stroke="#059669" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="562" width="444" height="30" rx="8" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+<text x="2008" y="583" text-anchor="start" font-size="19" fill="#0f172a">Send / SendExt / SendFd / SendRemote</text>
+<path d="M1914,662 C1954,662 1954,611 1994,611" fill="none" stroke="#059669" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="596" width="444" height="30" rx="8" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+<text x="2008" y="617" text-anchor="start" font-size="19" fill="#0f172a">Receive / Available / ReceiveWait</text>
+<path d="M1914,662 C1954,662 1954,645 1994,645" fill="none" stroke="#059669" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="630" width="444" height="30" rx="8" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+<text x="2008" y="651" text-anchor="start" font-size="19" fill="#0f172a">Software filters (mask, exact)</text>
+<path d="M1914,662 C1954,662 1954,679 1994,679" fill="none" stroke="#059669" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="664" width="444" height="30" rx="8" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+<text x="2008" y="685" text-anchor="start" font-size="19" fill="#0f172a">Callbacks: on_rx, on_event</text>
+<path d="M1914,662 C1954,662 1954,713 1994,713" fill="none" stroke="#059669" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="698" width="444" height="30" rx="8" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+<text x="2008" y="719" text-anchor="start" font-size="19" fill="#0f172a">Manual send (watch window)</text>
+<path d="M1914,662 C1954,662 1954,747 1994,747" fill="none" stroke="#059669" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="732" width="444" height="30" rx="8" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+<text x="2008" y="753" text-anchor="start" font-size="19" fill="#0f172a">Bus-off auto recovery</text>
+<path d="M1914,662 C1954,662 1954,781 1994,781" fill="none" stroke="#059669" stroke-width="2.2" opacity="0.7"/>
+<rect x="1994" y="766" width="444" height="30" rx="8" fill="#fff" stroke="#059669" stroke-width="1.6"/>
+<text x="2008" y="787" text-anchor="start" font-size="19" fill="#0f172a">Transceiver mode pin</text>
+<path d="M1550,750 C1680,750 1519,943 1659,943" fill="none" stroke="#d97706" stroke-width="6" stroke-linecap="round"/>
+<rect x="1659" y="917" width="342" height="52" rx="26" fill="#d97706"/>
+<text x="1830" y="951" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Main struct CanLib_t</text>
+<path d="M2001,943 C2041,943 2041,841 2081,841" fill="none" stroke="#d97706" stroke-width="2.2" opacity="0.7"/>
+<rect x="2081" y="826" width="364" height="30" rx="8" fill="#fff" stroke="#d97706" stroke-width="1.6"/>
+<text x="2095" y="847" text-anchor="start" font-size="19" fill="#0f172a">cfg: bit timing, mode, FD</text>
+<path d="M2001,943 C2041,943 2041,875 2081,875" fill="none" stroke="#d97706" stroke-width="2.2" opacity="0.7"/>
+<rect x="2081" y="860" width="364" height="30" rx="8" fill="#fff" stroke="#d97706" stroke-width="1.6"/>
+<text x="2095" y="881" text-anchor="start" font-size="19" fill="#0f172a">hw: handles, pins, crystal</text>
+<path d="M2001,943 C2041,943 2041,909 2081,909" fill="none" stroke="#d97706" stroke-width="2.2" opacity="0.7"/>
+<rect x="2081" y="894" width="364" height="30" rx="8" fill="#fff" stroke="#d97706" stroke-width="1.6"/>
+<text x="2095" y="915" text-anchor="start" font-size="19" fill="#0f172a">rx / tx: header, body, buffer</text>
+<path d="M2001,943 C2041,943 2041,943 2081,943" fill="none" stroke="#d97706" stroke-width="2.2" opacity="0.7"/>
+<rect x="2081" y="928" width="364" height="30" rx="8" fill="#fff" stroke="#d97706" stroke-width="1.6"/>
+<text x="2095" y="949" text-anchor="start" font-size="19" fill="#0f172a">filters, status, bus counters</text>
+<path d="M2001,943 C2041,943 2041,977 2081,977" fill="none" stroke="#d97706" stroke-width="2.2" opacity="0.7"/>
+<rect x="2081" y="962" width="364" height="30" rx="8" fill="#fff" stroke="#d97706" stroke-width="1.6"/>
+<text x="2095" y="983" text-anchor="start" font-size="19" fill="#0f172a">stats, debug, callbacks</text>
+<path d="M2001,943 C2041,943 2041,1011 2081,1011" fill="none" stroke="#d97706" stroke-width="2.2" opacity="0.7"/>
+<rect x="2081" y="996" width="364" height="30" rx="8" fill="#fff" stroke="#d97706" stroke-width="1.6"/>
+<text x="2095" y="1017" text-anchor="start" font-size="19" fill="#0f172a">rtos objects</text>
+<path d="M2001,943 C2041,943 2041,1045 2081,1045" fill="none" stroke="#d97706" stroke-width="2.2" opacity="0.7"/>
+<rect x="2081" y="1030" width="364" height="30" rx="8" fill="#fff" stroke="#d97706" stroke-width="1.6"/>
+<text x="2095" y="1051" text-anchor="start" font-size="19" fill="#0f172a">port + port_ctx (backend)</text>
+<path d="M1550,750 C1680,750 1627,1207 1767,1207" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+<rect x="1767" y="1181" width="126" height="52" rx="26" fill="#dc2626"/>
+<text x="1830" y="1215" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Debug</text>
+<path d="M1893,1207 C1933,1207 1933,1105 1973,1105" fill="none" stroke="#dc2626" stroke-width="2.2" opacity="0.7"/>
+<rect x="1973" y="1090" width="478" height="30" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.6"/>
+<text x="1987" y="1111" text-anchor="start" font-size="19" fill="#0f172a">Keil watch window</text>
+<path d="M1893,1207 C1933,1207 1933,1139 1973,1139" fill="none" stroke="#dc2626" stroke-width="2.2" opacity="0.7"/>
+<rect x="1973" y="1124" width="478" height="30" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.6"/>
+<text x="1987" y="1145" text-anchor="start" font-size="19" fill="#0f172a">Errors (negative) / warnings (positive)</text>
+<path d="M1893,1207 C1933,1207 1933,1173 1973,1173" fill="none" stroke="#dc2626" stroke-width="2.2" opacity="0.7"/>
+<rect x="1973" y="1158" width="478" height="30" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.6"/>
+<text x="1987" y="1179" text-anchor="start" font-size="19" fill="#0f172a">Last error file / line / function</text>
+<path d="M1893,1207 C1933,1207 1933,1207 1973,1207" fill="none" stroke="#dc2626" stroke-width="2.2" opacity="0.7"/>
+<rect x="1973" y="1192" width="478" height="30" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.6"/>
+<text x="1987" y="1213" text-anchor="start" font-size="19" fill="#0f172a">Event log ring</text>
+<path d="M1893,1207 C1933,1207 1933,1241 1973,1241" fill="none" stroke="#dc2626" stroke-width="2.2" opacity="0.7"/>
+<rect x="1973" y="1226" width="478" height="30" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.6"/>
+<text x="1987" y="1247" text-anchor="start" font-size="19" fill="#0f172a">Optional printf, log levels</text>
+<path d="M1893,1207 C1933,1207 1933,1275 1973,1275" fill="none" stroke="#dc2626" stroke-width="2.2" opacity="0.7"/>
+<rect x="1973" y="1260" width="478" height="30" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.6"/>
+<text x="1987" y="1281" text-anchor="start" font-size="19" fill="#0f172a">Watch globals, assert hook</text>
+<path d="M1893,1207 C1933,1207 1933,1309 1973,1309" fill="none" stroke="#dc2626" stroke-width="2.2" opacity="0.7"/>
+<rect x="1973" y="1294" width="478" height="30" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.6"/>
+<text x="1987" y="1315" text-anchor="start" font-size="19" fill="#0f172a">Statistics + error counters</text>
+<path d="M1250,750 C1120,750 1231,432 1091,432" fill="none" stroke="#7c3aed" stroke-width="6" stroke-linecap="round"/>
+<rect x="850" y="406" width="241" height="52" rx="26" fill="#7c3aed"/>
+<text x="970" y="440" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Configuration</text>
+<path d="M849,432 C809,432 810,347 770,347" fill="none" stroke="#7c3aed" stroke-width="2.2" opacity="0.7"/>
+<rect x="326" y="332" width="444" height="30" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="1.6"/>
+<text x="756" y="353" text-anchor="end" font-size="19" fill="#0f172a">can_cfg.h = the only file to edit</text>
+<path d="M849,432 C809,432 810,381 770,381" fill="none" stroke="#7c3aed" stroke-width="2.2" opacity="0.7"/>
+<rect x="326" y="366" width="444" height="30" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="1.6"/>
+<text x="756" y="387" text-anchor="end" font-size="19" fill="#0f172a">Platform + backend switches</text>
+<path d="M849,432 C809,432 810,415 770,415" fill="none" stroke="#7c3aed" stroke-width="2.2" opacity="0.7"/>
+<rect x="326" y="400" width="444" height="30" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="1.6"/>
+<text x="756" y="421" text-anchor="end" font-size="19" fill="#0f172a">Feature macros (FD, filters, queues)</text>
+<path d="M849,432 C809,432 810,449 770,449" fill="none" stroke="#7c3aed" stroke-width="2.2" opacity="0.7"/>
+<rect x="326" y="434" width="444" height="30" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="1.6"/>
+<text x="756" y="455" text-anchor="end" font-size="19" fill="#0f172a">Sizes (queues, filters, instances)</text>
+<path d="M849,432 C809,432 810,483 770,483" fill="none" stroke="#7c3aed" stroke-width="2.2" opacity="0.7"/>
+<rect x="326" y="468" width="444" height="30" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="1.6"/>
+<text x="756" y="489" text-anchor="end" font-size="19" fill="#0f172a">FDCAN clock, H7 RAM, IRQ options</text>
+<path d="M849,432 C809,432 810,517 770,517" fill="none" stroke="#7c3aed" stroke-width="2.2" opacity="0.7"/>
+<rect x="326" y="502" width="444" height="30" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="1.6"/>
+<text x="756" y="523" text-anchor="end" font-size="19" fill="#0f172a">Sanity checks with #error</text>
+<path d="M1250,750 C1120,750 1274,662 1134,662" fill="none" stroke="#0891b2" stroke-width="6" stroke-linecap="round"/>
+<rect x="807" y="636" width="327" height="52" rx="26" fill="#0891b2"/>
+<text x="970" y="670" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">FreeRTOS (optional)</text>
+<path d="M806,662 C766,662 767,577 727,577" fill="none" stroke="#0891b2" stroke-width="2.2" opacity="0.7"/>
+<rect x="374" y="562" width="353" height="30" rx="8" fill="#fff" stroke="#0891b2" stroke-width="1.6"/>
+<text x="713" y="583" text-anchor="end" font-size="19" fill="#0f172a">CAN_CFG_USE_FREERTOS</text>
+<path d="M806,662 C766,662 767,611 727,611" fill="none" stroke="#0891b2" stroke-width="2.2" opacity="0.7"/>
+<rect x="374" y="596" width="353" height="30" rx="8" fill="#fff" stroke="#0891b2" stroke-width="1.6"/>
+<text x="713" y="617" text-anchor="end" font-size="19" fill="#0f172a">Recursive mutex per instance</text>
+<path d="M806,662 C766,662 767,645 727,645" fill="none" stroke="#0891b2" stroke-width="2.2" opacity="0.7"/>
+<rect x="374" y="630" width="353" height="30" rx="8" fill="#fff" stroke="#0891b2" stroke-width="1.6"/>
+<text x="713" y="651" text-anchor="end" font-size="19" fill="#0f172a">Library task (auto)</text>
+<path d="M806,662 C766,662 767,679 727,679" fill="none" stroke="#0891b2" stroke-width="2.2" opacity="0.7"/>
+<rect x="374" y="664" width="353" height="30" rx="8" fill="#fff" stroke="#0891b2" stroke-width="1.6"/>
+<text x="713" y="685" text-anchor="end" font-size="19" fill="#0f172a">Blocking CanLib_ReceiveWait</text>
+<path d="M806,662 C766,662 767,713 727,713" fill="none" stroke="#0891b2" stroke-width="2.2" opacity="0.7"/>
+<rect x="374" y="698" width="353" height="30" rx="8" fill="#fff" stroke="#0891b2" stroke-width="1.6"/>
+<text x="713" y="719" text-anchor="end" font-size="19" fill="#0f172a">ISR rules, notify from ISR</text>
+<path d="M806,662 C766,662 767,747 727,747" fill="none" stroke="#0891b2" stroke-width="2.2" opacity="0.7"/>
+<rect x="374" y="732" width="353" height="30" rx="8" fill="#fff" stroke="#0891b2" stroke-width="1.6"/>
+<text x="713" y="753" text-anchor="end" font-size="19" fill="#0f172a">Critical sections</text>
+<path d="M1250,750 C1120,750 1173,892 1033,892" fill="none" stroke="#be185d" stroke-width="6" stroke-linecap="round"/>
+<rect x="907" y="866" width="126" height="52" rx="26" fill="#be185d"/>
+<text x="970" y="900" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Setup</text>
+<path d="M907,892 C867,892 867,807 827,807" fill="none" stroke="#be185d" stroke-width="2.2" opacity="0.7"/>
+<rect x="349" y="792" width="478" height="30" rx="8" fill="#fff" stroke="#be185d" stroke-width="1.6"/>
+<text x="813" y="813" text-anchor="end" font-size="19" fill="#0f172a">STM32CubeMX (CAN, FDCAN, SPI, FreeRTOS)</text>
+<path d="M907,892 C867,892 867,841 827,841" fill="none" stroke="#be185d" stroke-width="2.2" opacity="0.7"/>
+<rect x="349" y="826" width="478" height="30" rx="8" fill="#fff" stroke="#be185d" stroke-width="1.6"/>
+<text x="813" y="847" text-anchor="end" font-size="19" fill="#0f172a">STM32CubeIDE / Keil</text>
+<path d="M907,892 C867,892 867,875 827,875" fill="none" stroke="#be185d" stroke-width="2.2" opacity="0.7"/>
+<rect x="349" y="860" width="478" height="30" rx="8" fill="#fff" stroke="#be185d" stroke-width="1.6"/>
+<text x="813" y="881" text-anchor="end" font-size="19" fill="#0f172a">ESP-IDF component</text>
+<path d="M907,892 C867,892 867,909 827,909" fill="none" stroke="#be185d" stroke-width="2.2" opacity="0.7"/>
+<rect x="349" y="894" width="478" height="30" rx="8" fill="#fff" stroke="#be185d" stroke-width="1.6"/>
+<text x="813" y="915" text-anchor="end" font-size="19" fill="#0f172a">Arduino-ESP32 package</text>
+<path d="M907,892 C867,892 867,943 827,943" fill="none" stroke="#be185d" stroke-width="2.2" opacity="0.7"/>
+<rect x="349" y="928" width="478" height="30" rx="8" fill="#fff" stroke="#be185d" stroke-width="1.6"/>
+<text x="813" y="949" text-anchor="end" font-size="19" fill="#0f172a">Wiring + 120 ohm termination</text>
+<path d="M907,892 C867,892 867,977 827,977" fill="none" stroke="#be185d" stroke-width="2.2" opacity="0.7"/>
+<rect x="349" y="962" width="478" height="30" rx="8" fill="#fff" stroke="#be185d" stroke-width="1.6"/>
+<text x="813" y="983" text-anchor="end" font-size="19" fill="#0f172a">Quick start: loopback test</text>
+<path d="M1250,750 C1120,750 1259,1122 1119,1122" fill="none" stroke="#4b5563" stroke-width="6" stroke-linecap="round"/>
+<rect x="821" y="1096" width="298" height="52" rx="26" fill="#4b5563"/>
+<text x="970" y="1130" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">Quality + Release</text>
+<path d="M821,1122 C781,1122 781,1037 741,1037" fill="none" stroke="#4b5563" stroke-width="2.2" opacity="0.7"/>
+<rect x="343" y="1022" width="398" height="30" rx="8" fill="#fff" stroke="#4b5563" stroke-width="1.6"/>
+<text x="727" y="1043" text-anchor="end" font-size="19" fill="#0f172a">Host tests (14 suites)</text>
+<path d="M821,1122 C781,1122 781,1071 741,1071" fill="none" stroke="#4b5563" stroke-width="2.2" opacity="0.7"/>
+<rect x="343" y="1056" width="398" height="30" rx="8" fill="#fff" stroke="#4b5563" stroke-width="1.6"/>
+<text x="727" y="1077" text-anchor="end" font-size="19" fill="#0f172a">Fake HAL, IDF, FreeRTOS, MCP sim</text>
+<path d="M821,1122 C781,1122 781,1105 741,1105" fill="none" stroke="#4b5563" stroke-width="2.2" opacity="0.7"/>
+<rect x="343" y="1090" width="398" height="30" rx="8" fill="#fff" stroke="#4b5563" stroke-width="1.6"/>
+<text x="727" y="1111" text-anchor="end" font-size="19" fill="#0f172a">ASan / UBSan / TSan</text>
+<path d="M821,1122 C781,1122 781,1139 741,1139" fill="none" stroke="#4b5563" stroke-width="2.2" opacity="0.7"/>
+<rect x="343" y="1124" width="398" height="30" rx="8" fill="#fff" stroke="#4b5563" stroke-width="1.6"/>
+<text x="727" y="1145" text-anchor="end" font-size="19" fill="#0f172a">README, FAQ, troubleshooting</text>
+<path d="M821,1122 C781,1122 781,1173 741,1173" fill="none" stroke="#4b5563" stroke-width="2.2" opacity="0.7"/>
+<rect x="343" y="1158" width="398" height="30" rx="8" fill="#fff" stroke="#4b5563" stroke-width="1.6"/>
+<text x="727" y="1179" text-anchor="end" font-size="19" fill="#0f172a">MIT, CI, CHANGELOG, llms.txt</text>
+<path d="M821,1122 C781,1122 781,1207 741,1207" fill="none" stroke="#4b5563" stroke-width="2.2" opacity="0.7"/>
+<rect x="343" y="1192" width="398" height="30" rx="8" fill="#fff" stroke="#4b5563" stroke-width="1.6"/>
+<text x="727" y="1213" text-anchor="end" font-size="19" fill="#0f172a">Not yet run on real hardware</text>
+<ellipse cx="1400" cy="750" rx="175" ry="95" fill="#0f172a"/>
+<text x="1400" y="740" text-anchor="middle" font-size="34" font-weight="800" fill="#fff">Universal</text>
+<text x="1400" y="778" text-anchor="middle" font-size="34" font-weight="800" fill="#fff">CAN Library</text>
+<text x="1400" y="812" text-anchor="middle" font-size="16" fill="#94a3b8">include "can_lib.h"</text>
+</svg>ing can_mind_map.svg…]()
 
-*Mind map of the whole library (also as [SVG](docs/can_mind_map.svg)).*
+
+*Mind map of the whole library.*
 
 ```
         your application
